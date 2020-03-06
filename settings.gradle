@@ -1,0 +1,2 @@
+rootProject.name='Yazarlar'
+include ':app'
