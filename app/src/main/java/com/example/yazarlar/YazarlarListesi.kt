@@ -7,96 +7,114 @@ object MockList {
     fun getMockedYazarlarListesi(): List<YazarlarModel> {
 
         val yazarlarModel = YazarlarModel(
-            "aasasaas",
+            R.drawable.sefiller,
             "Sefiller",
             "Victor Hugo",
-            "Fransa"
+            "Fransa",
+            "   Sefiller dünya klasikleri listesinde yer alan, çok uzun olmasına rağmen okuyucuyu asla sıkmayan bir eserdir. Büyük Fransız yazar romantik akımın temsilcisi Victor Hugo tarafından kalem alınmıştır. Sefiller ilk olarak 1862 yılında basılmıştır. Bu eser o kadar başarılı şekilde kaleme alınmıştır ki kitap kahramanları ile sizlerde serüvenden serüvene koşarsınız. Kitabın asıl dili Fransızca'dır. Kitabın baş kahramanı olan Jean Valjean ekmek çaldığı için 5 yıl kürek cezasına mahkum edilmiştir. Buradan defalarca kaçmaya çalışması ile bu cezası 19 yıla çıkarılır. Cezasından sonra özgürlüğüne kavuşur fakat daha zor bir hayat onu bekler.\n" +
+                    "\n" +
+                    "   Toplum tarafından dışlanır ve adapte olmakta zorlanır. Bir suçlunun tüm çıplaklığı ile yaşam öyküsünü anlatır Sefiller kitabı. Okunması zor olan eserlerden biri olsa da her okuyucuda aynı heyecanı yaratmayı başarması klasikler arasına girmesine neden olur. Sefiller MEB tarafından orta öğretim öğrencilerine okuması için tavsiye ettiği 100 Temel Eser listesinde yer almaktadır.\n" +
+                    "\n" +
+                    "  Tanrı, hiç bir çocuğu kötü olsun diye yaratmaz! Onu kötü yapan, kötü eğitimdir!..Kötü anne-baba, kötü çevre, kötü yönetim balçık gibidir, zavallı yavruları da çekip yutar. \n"
         )
 
         val yazarlarModel2 = YazarlarModel(
-            "asasas",
+            R.drawable.zambak,
             "Vadideki Zambak",
             "Honore de Balzac",
-            "Fransa"
+            "Fransa",
+            ""
         )
 
         val yazarlarModel3 = YazarlarModel(
-            "asasas",
+            R.drawable.ana,
             "Ana",
             "Maksim Gorki",
-            "Rusya"
+            "Rusya",
+            ""
         )
 
         val yazarlarModel4 = YazarlarModel(
-            "asasas",
+            R.drawable.karamazov,
             "Karamazov Kardeşler",
             "Fyodor Dostoyevski",
-            "Rusya"
+            "Rusya",
+            ""
         )
 
         val yazarlarModel5 = YazarlarModel(
-            "asasas",
+            R.drawable.gazap,
             "Gazap Üzümleri ",
             "John Steinbeck",
-            "İngiltere"
+            "İngiltere",
+            ""
         )
 
         val yazarlarModel6 = YazarlarModel(
-            "asasas",
+            R.drawable.canlar,
             "Ölü Canlar",
             "Nikolay Vasilyeviç Gogol",
-            "Rusya"
+            "Rusya",
+            ""
         )
 
         val yazarlarModel7 = YazarlarModel(
-            "asasas",
+            R.drawable.savas,
             "Savaş ve Barış",
             "Lev Nikoloyeviç Tolstoy",
-            "Rusya"
+            "Rusya",
+            ""
         )
 
 
         val yazarlarModel8 = YazarlarModel(
-            "asasas",
+            R.drawable.notlar,
             "Yeraltından Notlar",
             "Fyodor Dostoyevski",
-            "Rusya"
+            "Rusya",
+            ""
         )
 
         val yazarlarModel9 = YazarlarModel(
-            "asasas",
+            R.drawable.tepeler,
             "Uğultulu Tepeler",
             "Emily Bronte",
-            "İngiltere"
+            "İngiltere",
+            ""
         )
 
         val yazarlarModel10 = YazarlarModel(
-            "asasas",
+            R.drawable.komedya,
             "İlahi Komedya",
             "Dante Alighieri",
-            "İtalya"
+            "İtalya",
+            ""
         )
 
 
         val yazarlarModel11 = YazarlarModel(
-            "asasas",
+            R.drawable.madame,
             "Madame Bovary",
             "Gustave Flaubert",
-            "Fransa"
+            "Fransa",
+            ""
         )
+        R.id.cardview1
 
         val yazarlarModel12 = YazarlarModel(
-            "asasas",
+            R.drawable.gurur,
             "Aşk ve Gurur",
             "Jane Austen",
-            "İngiltere"
+            "İngiltere",
+            ""
         )
 
         val yazarlarModel13 = YazarlarModel(
-            "asasas",
-            "Aşk ve Gurur",
+            R.drawable.silahs,
+            "Üç Silahşörler",
             "Alexandre Dumas",
-            "Fransa"
+            "Fransa",
+            ""
         )
 
 

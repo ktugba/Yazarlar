@@ -14,6 +14,12 @@ class MainActivity : AppCompatActivity() {
 
         recyclerview1.layoutManager = LinearLayoutManager(this)
         recyclerview1.adapter = YazarlarAdapter(MockList.getMockedYazarlarListesi())
+
+
+        //val intent = Intent(this, SefillerActivity::class.java)
+        //startActivity(intent)
+
+
     }
 
 }

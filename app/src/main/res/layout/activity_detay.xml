@@ -3,15 +3,16 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
+    android:padding="2dp"
     android:orientation="horizontal">
 
 
     <androidx.cardview.widget.CardView
         android:id="@+id/cardview1"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        app:cardBackgroundColor="#FFE5E2"
-        app:cardCornerRadius="10dp"
+        android:layout_height="100dp"
+        app:cardBackgroundColor="#EEEEEE"
+        app:cardCornerRadius="8dp"
         app:cardElevation="5dp"
         app:cardUseCompatPadding="true">
 
@@ -22,10 +23,11 @@
             android:orientation="horizontal">
 
             <ImageView
+                android:layout_width="60dp"
                 android:id="@+id/imgProfilePhoto"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:background="@mipmap/ic_launcher_round" />
+                android:layout_height="70dp"
+                android:layout_marginTop="2dp"
+                android:scaleType="fitCenter" />
 
             <LinearLayout
                 android:layout_width="match_parent"

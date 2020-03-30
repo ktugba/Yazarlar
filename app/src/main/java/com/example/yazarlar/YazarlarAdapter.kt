@@ -5,6 +5,7 @@ import androidx.recyclerview.widget.RecyclerView
 
 class YazarlarAdapter(val yazarlarListesi: List<YazarlarModel>) :
     RecyclerView.Adapter<YazarlarViewHolder>() {
+
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): YazarlarViewHolder {
         return YazarlarViewHolder(parent)
     }
@@ -15,6 +16,7 @@ class YazarlarAdapter(val yazarlarListesi: List<YazarlarModel>) :
 
     override fun onBindViewHolder(holder: YazarlarViewHolder, position: Int) {
         holder.bind(yazarlarListesi[position])
-    }
 
+    }
 }
+

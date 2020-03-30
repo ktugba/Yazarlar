@@ -1,5 +1,6 @@
 package com.example.yazarlar
 
+import android.content.Intent
 import android.view.LayoutInflater
 import android.view.ViewGroup
 import android.widget.ImageView
@@ -26,9 +27,18 @@ class YazarlarViewHolder(container: ViewGroup) :
 
     fun bind(yazarlarModel: YazarlarModel) {
 
+        profileLink.setImageResource(yazarlarModel.profilePhotoLink)
         txtKitapAdi.text = yazarlarModel.kitapAdi
         txtYazarAdi.text = yazarlarModel.yazarAdi
         txtYazarUlkesi.text = yazarlarModel.yazarUlkesi
+
+
+        itemView.setOnClickListener {
+            val intent = Intent(itemView.context, SefillerActivity::class.java)
+            intent.putExtra("name", yazarlarModel)
+            itemView.context.startActivity(intent)
+        }
+
 
     }
 
